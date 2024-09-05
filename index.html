@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Motivational meassage by pratham</title>
+<style>
+*{font-size:40px;font-family:Arial;}
+body{background-color:lightblue;}
+</style>
+</head>
+<body>
+<center>
+<h1>Motivational Messages App</h1>
+<h2 id="msg"/>
+<script>
+function show()
+{
+let msg = document.getElementById("msg");
+let messages = [
+
+"believe,trust,act",
+"inspire,lead,hustle",
+"dream,act,plan" ];
+let r = parseInt(Math.random()*messages.length);
+msg.innerHTML = messages[r];
+}
+show();
+setInterval(show,3000);
+</script>
+</center>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
